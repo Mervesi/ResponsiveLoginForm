@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Responsive Modal</title>
+        <meta name="description" content="Responsive Modal Yapımı">
+        <meta name="author" content="Mervesi">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <button id="modalBtn" class="btn">MODAL</button>
+<!-- idlei javacript yazarken classları ise css yazarken çağırmak için veriyoruz. -->
+        <div id="myModal" class="modal">
+            <div class="modalContent">
+                <div class="modalHeader">
+                    <span id="close" class="close">&#9874;</span>
+                </div>
+                <div class="modalBody">
+                <div class="loginBox">
+                    <img src="cowAvatar.png" class="avatar">
+                    <h1>Login Form</h1>
+                    <form>
+                        <p>Username</p>
+                        <input type="text" name="username" placeholder="Enter Username">
+                        <p>Password</p>
+                        <input type="password" name="password" placeholder="Enter Password">
+                        <input type="submit" name="submit" value="Login">
+                        <a href="a">Forgot Passsword</a>
+
+
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
