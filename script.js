@@ -22,4 +22,3 @@ window.onclick = function(event){
         this.modal.style.display = "none"
     }
 }
-// değişiklik ojıkhuhftgfcv h
